@@ -2,6 +2,9 @@
 name = "simple_logger"
 version = "0.1.0"
 edition = "2021"
+description = "A simple logger I made for my own project. It has a Debug, Info and Error mode with info relevant to each dev profile that get flushed to a .txt filed at a default or configurable path"
+authors = ["titobepa@gmail.com"]
+license = "MIT"
 
 [dependencies]
 chrono = "0.4.38"
